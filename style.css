@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+	 --font-family: "Playfair Display", serif;
+	 --pink:#e5345b;	
+}
+*{
+	
+}
+.container a{
+	text-decoration: none;
+
+}
+.navbar-brand img{
+	width: 30px;
+	height: 50px;
+}
+.body{
+	font-family: var(--sm-font);
+}
+.bg-primary{
+	background-color:#e5345b; 
+}
+.btn:not(.nav-btns button){
+	background-color: #ffff;
+	color: rgb(85, 85, 85 );
+	padding: 10px 28px;
+	border-radius:25px ;
+	border: 1px solid rgb(85, 85, 85 );
+}
+.btn:not(.nav-btns button):hover{
+	background-color: var(--pink)!important;
+	color: #fff;
+	border-color: var(--pink)!important;
+
+}
+.navbar{
+	box-shadow: 0 3px 9px 3px rgba(0,0,0,0.1) ;
+}
+.navbar-brand span{
+	letter-spacing: 2px;
+	font-family:"Playfair Display", serif ;
+}
+.nav-link:hover{
+	color:var(--pink)!important; 
+}
+.nav-item{
+	border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+/*header*/
+#header{
+	background: url("banner-img-1.jpg") top/cover no-repeat;
+}
+.carousel-inner h1{
+	font-size: 60px;
+	font-family: "Playfair Display", serif;
+}
+.carousel-item .btn{
+	border-color: #fff !important;
+}
+.carousel-item .btn:hover{
+	border-color: var(--pink)!important;
+}
+.title h2::before{
+	position:absolute ;
+	content: "";
+	width: 4px;
+	height: 50px;
+	background-color: var(--pink)!important;
+	left: -20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.active-filter-btn{
+	background-color: var(--pink)!important;
+	color: #fff;
+	border-color: var(--pink)!important;
+}
+.collection-img span{
+	top: 20px;
+	right: 20px;
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	background-color: var(--pink)!important;
+}
+
+.rating span{
+	color: var(--pink)!important;
+}
+.special-list span i{
+	color: var(--pink)!important;;
+}
+.special-img span{
+	top: 20px;	
+	right: 20px;
+}
+.special-list.btn{
+	padding: 8px 20px!important;
+}
+.special-img img{
+	transition: all 0.3s ease;
+}
+.special-img:hover{
+	transform: scale(1.2);
+}
+
+#offers{
+	background: url("offer_img.jpg")center/cover no-repeat;	
+	height: 60vh;
+}
+#offers.row{
+	min-height: 60vh;
+}
+.offers-content span{
+	font-size: 28px;
+}
+.offers-content h2{
+	font-size: 60px;
+	font-family: "Playfair Display", serif; 
+}
+.offers-content .btn{
+	border-color: transparent!important;
+}
+#about{
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+#newsletter{
+	background-color: rgba(179, 179, 179, 0.05);
+}
+#newsletter p{
+	max-width:600px ;
+}
+.input-group{
+	max-width: 500px;
+}
+#newsletter.form-control{
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+#newsletter .btn{
+	background-color: var(--pink)!important;
+	color: #fff;
+	border-color: var(--pink);
+}
+#newsletter.btn:hover{
+	background-color: #000;
+	border-color:#000 ;
+}
+footer.brand{
+	font-family: "Playfair Display", serif;
+	letter-spacing: 2px; 
+}
+footer a{
+	transition: color 0.3s ease;
+}
+footer a:hover{
+	color: var(--pink)!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 992px){
+	.nav-item{
+		border-bottom: none;
+	}
+}
